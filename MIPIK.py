@@ -23,14 +23,14 @@ class Example(QWidget):
         if self.do_paint:
             qp = QPainter()
             qp.begin(self)
-            self.draw_flag(qp)
+            self.draw_crug(qp)
             qp.end()
 
     def paint(self):
         self.do_paint = True
         self.repaint()
 
-    def draw_flag(self, qp):
+    def draw_crug(self, qp):
         a = random.randint(10, 100)
         r = 255
         g = 255
