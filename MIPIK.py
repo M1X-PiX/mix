@@ -12,7 +12,7 @@ class Example(QWidget):
 
     def initUI(self):
         self.setGeometry(300, 300, 400, 400)
-        self.setWindowTitle('123')
+        self.setWindowTitle('Git и желтые окружности')
         self.btn = QPushButton('Draw', self)
         self.btn.move(170, 350)
         self.btn.resize(60, 40)
